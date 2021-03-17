@@ -1,0 +1,157 @@
+<html lang="pl">
+<head>
+<meta charset="utf 8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CSS Basics</title>
+<title>HTML internal links</title>
+<TITLE>CSS position and overflow</title>
+<title>CSS grouping elements</title>
+<title>CSS box model</title>
+<style>
+body
+{
+background-color: #90A4AE;
+}
+p
+{
+font-size:16;
+font-family:arial;
+width:70%
+}
+#k
+{
+border:10px solid #B0BEC5;
+}
+.ok
+{
+background-color:white;
+width:30%;
+color:red;
+}
+#ok
+{
+height:300px;
+overflow:auto;
+background-color:#CFD8DC;
+border:solid 5px #B0BEC5;
+}
+h
+{
+background-color:white;
+}
+</style>
+</head>
+<body>
+
+
+<p><a href="indeks.html" class="ok">Strona główna</a></p>
+<center>
+<h1>Chess.com</h1>
+<ul>
+<li><a href="#j" class="ok">Rodzaje figur szacowych</a></li>
+<li><a href="#lol" class="ok">Jak grać w szachy</a></li>
+<li><a href="#jak" class="ok">Jak matować w szachach</a></li>
+<li><a href="#niga" class="ok">Tryby na chess.com</a></li>
+
+</ul>
+<img id="k" src="pobrane29.jpg" width=30%>
+<h2 id="j">Rodzaje figur szachowych:</h2>
+<div id="ok">
+<img src="pobrane30.jpg" width=10% style="float:left;margin 8px;">
+<H3>Pionek</h3>
+<p style="position:relative;left 30px">Najsłabsza i zarazem najmniejsza <strong>bierka</strong> w szachach. Każdy z graczy rozpoczyna grę z ośmioma pionami na swojej drugiej linii. 
+W przeciwieństwie do innych bierek piony nie mogą się cofać. Pion porusza się o jedno pole do przodu, jednak każdy pion z pozycji wyjściowej (białe – z drugiego rzędu, czarne – z siódmego) może wykonać ruch zarówno o jedno, 
+jak i o dwa pola do przodu. <strong>Pola</strong>, na które pion może wykonać ruch lub które może w ruchu minąć, muszą być wolne, pion nie może przeskoczyć innej bierki.
+W odróżnieniu od innych bierek, pion nie może zbić bierki przeciwnika na polu, na które mógłby wejść, w jednym ruchu. Dowolna bierka (własna lub przeciwnika), stojąca przed pionem, blokuje jego ruch. 
+Pion bije na ukos, jedno pole do przodu po lewej lub prawej jego stronie.</p><br><br><br><br><br>
+<img src="pobrane31.jpg" width="10%" style="float:left;margin 8px;possition:relative;left:100px">
+<h3>Skoczek</h3>
+<p>Każdy z graczy rozpoczyna grę z dwoma skoczkami, stojącymi pomiędzy wieżą a gońcem. 
+Ruch skoczka można opisać jako krok o jedno pole w pionie lub poziomie, a następnie drugi krok na ukos, w kierunku oddalającym go od pola startowego. Niekiedy mówi się, że porusza się on „po literze L”. 
+Przemieszcza się zawsze na pole przeciwnego koloru, pole to jest dodatkowo najbliższym polem o przeciwnym do wyjściowego kolorze, z wyłączeniem z nim sąsiadujących. 
+Skoczek, tak jak każda inna figura, bije bierkę przeciwnika zajmując jej pole i porusza się przy biciu według tejże reguły, co i przy zwykłym ruchu.
+Skoczek jest niezwykły w porównaniu z innymi bierkami szachowymi. W przeciwieństwie do innych figur szachowych skoczek może zignorować bierki stojące mu na drodze i przeskakiwać przez nie.</p><br><br><br><br>
+<img src="pobrane32.jpg" width="10%" style="float:left;margin 8px;">
+<h3>Goniec</h3>
+<p>Każdy z graczy rozpoczyna grę z dwoma gońcami. Jeden stoi pomiędzy królewskim skoczkiem i królem, a drugi – pomiędzy hetmanem i hetmańskim skoczkiem.
+Gońce jednego koloru można rozróżniać w zależności od ich początkowego pola, nazywając je odpowiednio królewskim i hetmańskim. 
+Ponieważ goniec zawsze operuje na polach tego samego koloru, częściej używa się rozróżnienia na gońce białopolowe i czarnopolowe.Goniec może poruszać i bić na ukos.Nie może przeskakiwać jednostek.</p><br><br><br><br>
+<img src="pobrane33.jpg" width="10%" style="float:left;margin 8px">
+<h3>Wieża</h3>
+<p>Każdy z graczy rozpoczyna grę z dwiema wieżami, stojącymi w narożnikach szachownicy. 
+Wieża porusza się po liniach pionowych i poziomych, w dowolnym kierunku, o dowolną liczbę niezajętych pól. 
+Wieża bije bierkę przeciwnika, zajmując jej pole. Uczestniczy również wraz z królem w specyficznym ruchu, zwanym <strong>roszadą</strong>.<br><br><br><br>
+<img src="pobrane34.jpg" width="10%" style="float:left; margin 8px;position:relative;right:200px">
+<h3>Hetman</h3>
+<p>Najsilniejsza figura w szachach. W początkowym ustawieniu każdy z graczy ma jednego hetmana ustawionego obok króla. W notacji algebraicznej hetman białych znajduje się na polu d1, hetman czarnych na d8. 
+Hetman może poruszać się w dowolnym kierunku (poziomo, pionowo oraz na ukos) o dowolną liczbę wolnych pól, jest więc jakby jednocześnie i gońcem i wieżą. Hetman bije bierkę przeciwnika, zajmując jej pole.</p><br><br><br><br><br><br><br>
+<img src="pobrane35.jpg" width="10%" style="float:left; margin 8px">
+<h3>Król</h3>
+<p>kluczowa figura w szachach. W tradycyjnym początkowym ustawieniu bierek król znajduje się pomiędzy hetmanem i królewskim gońcem, na pierwszej (ósmej) linii. 
+W notacji algebraicznej król białych znajduje się na polu e1, król czarnych na e8. Król jest specyficzną figurą, ponieważ zasadniczym celem przeciwnika jest jego osaczenie.
+Król może poruszać się o jedno pole w dowolnym kierunku (pionowo, poziomo lub na ukos), nie może jednak wejść na pole atakowane przez bierkę przeciwnika. 
+Jak wszystkie inne bierki, król bije bierkę przeciwnika wchodząc na pole przez nią zajmowane.Jeśli król jest atakowany przez bierkę (bierki) przeciwnika, mówi się, że jest w szachu lub jest szachowany. 
+W takiej sytuacji gracz ma obowiązek bronić króla (nie może wykonać innego ruchu) przez przesunięcie go na inne pole, zbicie atakującej bierki przeciwnika lub przesłonięcie ataku własną bierką. 
+W odróżnieniu od innych bierek król nie może szachować króla przeciwnika.</p>
+</div>
+<div style="background-color:#CFD8DC;border:solid 5px #B0BEC5">
+<h2 id="lol">Jak grać w szachy</h2>
+<img src="pobrane36.jpg" width="20%" style="float:left; margin 8px">
+<p>Istotne, by wyrobić w sobie szachowe myślenie. Dlatego na początku, gdy zaczynasz dopiero przygodę z królewską grą, powinieneś rozgrywać dużo partii. 
+Najlepiej byłoby, gdybyś robił to pod okiem kogoś bardziej doświadczonego – trenera lub kolegi.<br>Oto najważniejsze porady, jak grać lepiej w szachy:</p>
+</center>
+<ol style="position:relative;left:100px">
+<li>Rozprowadzaj figury i rób roszadę. Dobrze rozpoczynaj partię.</li>
+<li>Po każdym ruchu przeciwnika zastanów się, jaki jest jego plan.</li>
+<li>Zawsze upewniaj się, czy żadna z Twoich figur czy pionów nie jest atakowana.</li>
+<li>Zanim wykonasz ruch, sprawdź, czy nie narazisz się na bicie lub atak przeciwnika.</li>
+<li>Nie wymieniaj lepszych figur za słabsze, np. Wieżę za Skoczka.</li>
+<li>Przed ruchem zastanów się, czy nie można zagrać lepiej.</li>
+</ol>
+</div>
+<center>
+<div style="background-color:#CFD8DC;border:solid 5px #B0BEC5">
+<h2 id="jak" style="position:reltative;right:100px">Jak matować w szachach:</h2>
+
+<img src="pobrane37.jpg" width="20%" style="float:left; margin 8px;position:relative;top:100px">
+<H3 style="position:relative;top:20px;right:750px">Mat wieżą i wieżą.</h3>
+<img src="pobrane38.jpg" width="20%" style="position:relative;top:50px">
+<h3 style="float:right;margin:8px;position:relative;right:500px;bottom:50px">Mat wieżą i królem</h3><br><br><br>
+<h3>Mat 2 gońcami i królem</h3>
+<img src="pobrane39.jpg" width=20%>
+</div>
+<div style="background-color:#CFD8DC;border:solid 5px #B0BEC5">
+<h2 id="niga">Specjalne tryby w chess.com</h2>
+<h3>Zwykłe szachy</h3>
+<img src="pobrane42.jpg" width="30%" style="float:left;margin 8px">
+<p>Zwykła rozrywka w szachy,która polega na zmatowaniu króla lub wygraniu na czas. Należy uważać,aby nie doprowadzić do powtórzenia ruchów,ponieważ gra zakończy się remisem.Można wybrać wariant od 20:00  do 1:00 minuty.</p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<h3 >Szachy dla 4</h3>
+<img src="pobrane40.jpg" style="float:left; margin:8px;" width="30%">
+<p >Odmiana gry w szachy, polegająca na równoczesnej grze czterech osób. Gra rozgrywana jest na większej, bo zawierającej 160 pól szachownicy. Gracze wykonują kolejno po jednym ruchu, zgodnie z ruchem wskazówek zegara.
+Gra polega na zdobyciu największej ilości punktów.Zbicie piona daje 1 punkt,skoczka i gońca 3 punkty,wieży 5 punktów,hetmana 9 punktów,zmatowanie króla 20 punktów. Należy uważać,aby nie przegrać na czas.</p><br><br><br><br><br><br><br><br><br><br><br>
+<h3 >Puzzle rush</h3>
+<img src="pobrane41.jpg" style="float:left; margin:8px;" width=30%>
+<p>Różne zagadki szachowe,które polegają na np:zmatowaniu króla, albo zbicie jakiejś figury.Gra się do 3 popełninych błędów</p><br><BR><BR><BR><BR><br><br><br><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
+</center>
+</div>
+<p><a  class="ok" href="indeks.html">Powrót do strony głównej</a></p>
+<p><a class="ok" href="https://www.chess.com/play/online" target="_blank">Graj chess.com za darmo</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
